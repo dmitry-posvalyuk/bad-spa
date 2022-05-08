@@ -1,0 +1,9 @@
+<button><a href="/">To Homepage</a></button>
+<p>PAGE</p>
+<h2>Your page index is: <span id="page"></span></h2>
+<script>
+  ;(() => {
+    const index = location.pathname.substr(location.pathname.lastIndexOf('/') + 1)
+    document.querySelector('#page').innerText = index
+  })()
+</script>

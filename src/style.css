@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Calibri Light', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
